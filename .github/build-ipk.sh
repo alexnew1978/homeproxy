@@ -61,7 +61,7 @@ echo "modules/luci-base/src" >> ".git/info/sparse-checkout"
 git checkout
 cd "modules/luci-base/src"
 make po2lmo
-./po2lmo "$PKG_DIR/po/zh_Hans/homeproxy.po" "$TEMP_PKG_DIR/usr/lib/lua/luci/i18n/homeproxy.zh-cn.lmo"
+./po2lmo "$PKG_DIR/po/ru/homeproxy.po" "$TEMP_PKG_DIR/usr/lib/lua/luci/i18n/homeproxy.ru.lmo"
 popd
 rm -rf "po2lmo"
 
